@@ -30,4 +30,9 @@ paises: Country[] = [];
     }
     })
   }
+  sugerencias( termino: string ){
+    this.hayError = false;
+    console.log(termino);
+    //TODO: Crear sugerencias
+  }
 }
